@@ -1,0 +1,19 @@
+body {
+    background: hsl(219, 100%, 88%);
+    width: 100vh;
+}
+
+.card {
+    width: 375px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.qr-code {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

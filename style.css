@@ -1,19 +1,48 @@
 body {
-    background: hsl(219, 100%, 88%);
-    width: 100vh;
+    background-color: #D5E1EF;
 }
 
-.card {
-    width: 375px;
-    background: white;
+.tabcenter {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+}
+
+.container {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+    width: 320px;
+    height: 497px;
+    background-color : white;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 20px;
 }
 
 .qr-code {
     width: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.paragraphe {
+    margin: 0 16px;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+}
+
+.titre {
+    font-size: 24px;
+    margin-top: 0px;
+    font-weight: 700;
+}
+
+.instruction {
+    font-size: 16px;
+    color: lightgray;
+    margin-top: 0px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
 }

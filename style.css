@@ -22,7 +22,7 @@ body {
     background-color : white;
     border-radius: 15px;
     margin: 12px;
-    padding: 20px;
+    padding: 18px;
     text-align: center;
 }   
 
@@ -37,7 +37,8 @@ body {
 
 h2 {
     font-size: 23px;
-    margin-top: 0px;
+    margin-top: 5px;
+    color: hsl(218, 44%, 22%);
 }
 
 .instruction {

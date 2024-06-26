@@ -1,48 +1,48 @@
-body {
-    background-color: #D5E1EF;
-}
-
-.tabcenter {
+* {
     margin-left: auto;
     margin-right: auto;
-    height: 100vh;
 }
 
-.container {
+body {
+    height: 100vh;
+    font-family: "Outfit", sans-serif;
+    background-color: #D5E1EF;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 320px;
-    height: 497px;
-    background-color : white;
-    border: 1px solid rgb(233, 233, 233);
-    border-radius: 20px;
 }
 
-.qr-code {
-    width: 300px;
-    height: auto;
+.container {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color : white;
     border-radius: 15px;
-    margin: 10px;
+    margin: 12px;
+    padding: 20px;
+    text-align: center;
+}   
+
+.img {
+    width: 100%;
+    border-radius: 12px;
 }
 
 .paragraphe {
-    margin: 10px 16px;
-    font-family: "Outfit", sans-serif;
-    text-align: center;
+    padding: 10px;
 }
 
-.titre {
-    font-size: 24px;
+h2 {
+    font-size: 23px;
     margin-top: 0px;
-    font-weight: 700;
 }
 
 .instruction {
-    font-size: 16px;
-    color: lightgray;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
     margin-top: 0px;
-    font-family: "Outfit", sans-serif;
     font-weight: 400;
 }
